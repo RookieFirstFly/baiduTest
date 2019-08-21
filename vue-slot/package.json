@@ -1,0 +1,32 @@
+{
+  "name": "vue-cli-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.devserver.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "vue-animation": "^0.1.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "build": "webpack --env.production",
+    "server": "webpack-dev-server  --env.development --test abc --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
